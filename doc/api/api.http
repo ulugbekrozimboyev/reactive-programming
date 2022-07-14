@@ -1,0 +1,17 @@
+## test external sports API
+GET https://sports.api.decathlon.com/sports
+
+### test internal sports API
+GET http://localhost:8080/api/v1/sports
+
+### delete sport item
+DELETE http://localhost:8080/api/v1/sports/284
+
+
+### test internal sports API
+GET http://localhost:8080/api/v2/sports/59
+
+### test internal sports API
+GET http://localhost:8080/api/v2/sports/by-name/Bouldering
+
+
